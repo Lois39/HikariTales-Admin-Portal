@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
-   <div className="min-h-screen bg-gradient-to-br from-sky-100 via-rose-100 to-lime-100 dark:from-indigo-950 dark:via-purple-900 dark:to-cyan-900 relative overflow-hidden">
+   <div className="min-h-screen bg-gradient-to-br from-purple-200 via-purple-300 to-purple-400 dark:from-purple-950 dark:via-purple-900 dark:to-purple-800 relative overflow-hidden">
   {/* Floating shapes */}
   <div className="absolute -top-20 -right-20 w-80 h-80 bg-pink-200/20 dark:bg-pink-500/10 rounded-full blur-3xl"></div>
   <div className="absolute -bottom-20 -left-20 w-80 h-80 bg-cyan-200/20 dark:bg-cyan-500/10 rounded-full blur-3xl"></div>
@@ -49,14 +49,14 @@ const Index = () => {
                 <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="w-full sm:w-auto border-2 border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 gap-3 text-lg px-8 py-6 rounded-2xl transition-all duration-300"
-            >
-              <Eye className="h-5 w-5" />
-              View Live Site
-            </Button>
+           <Button 
+  variant="outline" 
+  size="lg"
+  className="w-full sm:w-auto border-2 border-slate-300 dark:border-slate-600 text-white hover:bg-slate-100 dark:hover:bg-slate-800 gap-3 text-lg px-8 py-6 rounded-2xl transition-all duration-300"
+>
+  <Eye className="h-5 w-5 text-white" />
+  View Live Site
+</Button>
           </div>
         </div>
 
